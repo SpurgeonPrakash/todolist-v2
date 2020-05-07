@@ -17,6 +17,7 @@ app.use(express.static("public"));
 
 // let customListName = "";
 
+// mongoose.connect("mongodb://localhost:27017/fruitsDB", { useUnifiedTopology: true,  useNewUrlParser: true });
 mongoose.connect("mongodb+srv://admin-spurgeon:Test123@cluster0-tetdl.mongodb.net/todoListDB", {
   useUnifiedTopology: true,
   useNewUrlParser: true
